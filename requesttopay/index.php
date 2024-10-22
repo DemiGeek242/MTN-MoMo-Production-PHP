@@ -20,7 +20,6 @@
  * @package Demi-Geek
  * @version 1.0
  */
-
 require './requesttopay.php';  // Inclusion du fichier contenant la fonction requestToPay()
 
 // Vérification que la requête est une requête POST

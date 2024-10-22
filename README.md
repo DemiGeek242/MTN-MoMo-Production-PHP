@@ -16,7 +16,7 @@ Ce projet permet une intégration avec une API Mobile Money pour gérer les paie
 
   Clonez le dépôt :
       
-      git clone https://github.com/PrinceWami/MTN-MoMo-Production-PHP.git
+      git clone https://github.com/DemiGeek242/MTN-MoMo-Production-PHP.git
       
   <h3>requesttopay.php</h3>
   $PRIVATE_KEY = 'votre_clé_privée';<br>

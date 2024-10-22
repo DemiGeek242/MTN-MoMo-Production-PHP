@@ -74,7 +74,6 @@ function generateUUID() {
     return vsprintf('%s%s-%s-%s-%s-%s%s%s', str_split(bin2hex($data), 4));
 }
 
-
 /**
  * Récupère un jeton d'accès (Access Token) en utilisant une authentification Basic.
  *
