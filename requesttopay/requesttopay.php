@@ -187,6 +187,9 @@ function requestToPay($phoneNumber, $amount) {
     $response = sendPostRequest($url, $body, $headers);
 
     if ($response['http_code'] === 202) {
+        //Enregistrer la transaction dans votre base de donnée avec le statut en attente ici
+
+        // Fin d'enregistrement
         return ['result' => 'OK', 'message' => 'Veuillez valider le paiement sur votre téléphone', 'reference_id' => $referenceId];
     } else {
         return ['result' => 'KO', 'message' => 'Une erreur est survenue. Veuillez réessayer plus tard.','data'=>$response];
