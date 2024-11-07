@@ -84,3 +84,5 @@ Le serveur renverra une réponse JSON avec le résultat de la transaction. Voici
 
   - Utilisez HTTPS pour protéger les données sensibles.
   - Ne partagez jamais votre clé privée ou vos identifiants API publiquement.
+    
+<h3>Gestion du callback pour le statut des transactions</h3>
